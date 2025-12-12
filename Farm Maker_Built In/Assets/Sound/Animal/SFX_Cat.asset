@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec27ebd620119d42b84545ab864973a, type: 3}
+  m_Name: SFX_Cat
+  m_EditorClassIdentifier: 
+  crying: {fileID: 8300000, guid: eabf174ea3cc2f74ea94e5cc79f071a8, type: 3}
+  talk: {fileID: 8300000, guid: c6ea4ca4c29f02449bf3539172ed9e9e, type: 3}
+  scream: {fileID: 8300000, guid: 50907ce51dbf99e45b4b7e0e050874c3, type: 3}

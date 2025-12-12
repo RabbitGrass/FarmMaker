@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ac74246aa50945b4fc85bbda0314e, type: 3}
+  m_Name: Rake
+  m_EditorClassIdentifier: 
+  itemName: "\uB808\uC774\uD06C"
+  itemType: 0
+  itemDescrip: 
+  itemImage: {fileID: 21300000, guid: 9c992afbc7925bb41baa3d2c45ad027f, type: 3}
+  ItemPrefab: {fileID: 972630511500894134, guid: 77cb02c55d8064b4ab36f3bb0972d097, type: 3}

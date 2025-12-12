@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ac74246aa50945b4fc85bbda0314e, type: 3}
+  m_Name: WoodenBucket
+  m_EditorClassIdentifier: 
+  itemName: "\uBB3C\uD1B5"
+  itemType: 0
+  itemDescrip: 
+  itemImage: {fileID: 21300000, guid: 3c692ca4eb45b824a988a9fd1899ee13, type: 3}
+  ItemPrefab: {fileID: 1766914637291128831, guid: d0cd6a67858ea2b4e88cef8b99c787e6, type: 3}

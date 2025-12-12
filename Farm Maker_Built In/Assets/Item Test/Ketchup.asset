@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ac74246aa50945b4fc85bbda0314e, type: 3}
+  m_Name: Ketchup
+  m_EditorClassIdentifier: 
+  itemName: "\uCF00\uCC39"
+  itemType: 5
+  itemDescrip: "\uC798 \uC775\uC740 \uD1A0\uB9C8\uD1A0\uB97C \uACF1\uAC8C \uAC08\uC544
+    \uB9CC\uB4E0 \uC18C\uC2A4. \uC0C8\uCF64\uB2EC\uCF64\uD55C \uD5A5\uC774 \uC785\uB9DB\uC744
+    \uB3CB\uC6B4\uB2E4."
+  itemImage: {fileID: 21300000, guid: 5b28e978049033749b593a68acf98c38, type: 3}
+  ItemPrefab: {fileID: 55729365387900863, guid: 7caac4a6c8eaeb3448160468b9acef9c, type: 3}

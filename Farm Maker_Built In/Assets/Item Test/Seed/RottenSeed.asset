@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ac74246aa50945b4fc85bbda0314e, type: 3}
+  m_Name: RottenSeed
+  m_EditorClassIdentifier: 
+  itemName: "\uC369\uC740 \uC528\uC557"
+  itemType: 3
+  itemDescrip: "\uC624\uB798 \uB418\uC11C \uC369\uC5B4\uBC84\uB9B0 \uC528\uC557\uC774\uB2E4."
+  itemImage: {fileID: 21300000, guid: b6c969542f35fa64f9f633d499b529b2, type: 3}
+  ItemPrefab: {fileID: 2995369615194752257, guid: 695c97f27f94d47488bb06913fe2bf74, type: 3}

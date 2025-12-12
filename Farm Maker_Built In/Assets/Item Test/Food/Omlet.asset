@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ac74246aa50945b4fc85bbda0314e, type: 3}
+  m_Name: Omlet
+  m_EditorClassIdentifier: 
+  itemName: "\uC624\uBBC8\uB81B"
+  itemType: 4
+  itemDescrip: "\uB2EC\uAC40\uACFC \uCF00\uCC39\uC73C\uB85C \uB9CC\uB4E0 \uBD80\uB4DC\uB7EC\uC6B4
+    \uC624\uBBC8\uB81B. \uAC00\uBCBC\uC6B4 \uC2DD\uC0AC\uB85C \uC81C\uACA9\uC774\uB2E4. "
+  itemImage: {fileID: 21300000, guid: 048b219be997b134dab9074b5183475b, type: 3}
+  ItemPrefab: {fileID: 7470920870615178170, guid: d81b0d298e270b4458d8a549f2e2e5e4, type: 3}

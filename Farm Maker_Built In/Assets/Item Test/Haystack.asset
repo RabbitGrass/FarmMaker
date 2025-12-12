@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5ac74246aa50945b4fc85bbda0314e, type: 3}
+  m_Name: Haystack
+  m_EditorClassIdentifier: 
+  itemName: "\uAC74\uCD08\uB354\uBBF8"
+  itemType: 6
+  itemDescrip: "\uBC00\uC744 \uD138\uACE0 \uB0A8\uC740 \uC904\uAE30\uB97C \uBAA8\uC544
+    \uB9CC\uB4E0 \uAC74\uCD08\uB354\uBBF8"
+  itemImage: {fileID: 21300000, guid: 0b32c245925f28841a3285dc3eb8d9f3, type: 3}
+  ItemPrefab: {fileID: 1840422409874705543, guid: 40a937fe32ff9d144ad27eeda27d554c, type: 3}
