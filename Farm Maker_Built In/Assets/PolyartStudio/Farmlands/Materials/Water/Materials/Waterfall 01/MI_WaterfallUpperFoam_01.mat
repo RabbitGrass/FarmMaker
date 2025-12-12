@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_WaterfallUpperFoam_01
+  m_Shader: {fileID: 4800000, guid: bc8cb6ea6961cbc4082fb66ac7d0ae86, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise1:
+        m_Texture: {fileID: 2800000, guid: 5fa555fb8d3ad694cabefbd47cb9970d, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: f40728e0bbda94a4ab38de34275e31e9, type: 3}
+        m_Scale: {x: 1.26, y: 0.49}
+        m_Offset: {x: 0.39, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: f40728e0bbda94a4ab38de34275e31e9, type: 3}
+        m_Scale: {x: 1.59, y: 0.52}
+        m_Offset: {x: 1.96, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DeviationOffset: 0.001
+    - _DeviationOffset1: 0.0311
+    - _DeviationOffset2: 0.031
+    - _Float1: 0.27
+    - _LightBlending: 0
+    - _LightDir: -1
+    - _LightDirMax: 0.79
+    - _LightDirMin: 0.69
+    - _LightMax: 0.68
+    - _LightMin: 0.54
+    - _Noise2SubractValue: 0.158
+    - _NormalStrength: 0.33
+    - _NormalStrength1: 1.36
+    - _VerticalMask: -1
+    - _VerticalMaskMax: 0.74
+    - _VerticalMaskMin: 0.7
+    - _WPO1Intensity: 0.007
+    - _WPO1Speed: 0.93
+    - _WPO1SubractValue: 0.155
+    - _WPO2Intensity: 152.5
+    - _WPO2Intensity1: 0.003
+    - _WPO2Speed: -3.76
+    - _WPO2SubractValue: 0.137
+    - _WPOIntensity: 133.14
+    - _WPOIntensity1: 0.007
+    - _WPOScale: 0.7
+    - _WPOSpeed: 2.08
+    - _WPOSpeed1: -0.19
+    - _WPOSpeed2: 1.47
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 0.97900003, g: 0.97900003, b: 0.97900003, a: 1}
+    - _Color1: {r: 0.81501424, g: 0.9188235, b: 0.9339623, a: 0}
+    - _WPO2PositionMultiplier: {r: 1, g: -0.7, b: 1, a: 0}
+    - _WPO2PositionMultiplier1: {r: 1, g: 1, b: 1, a: 0}
+    - _WPO2PositionMultiplier2: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

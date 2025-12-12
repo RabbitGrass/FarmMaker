@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MI_Mist
+  m_Shader: {fileID: 4800000, guid: 66906d5c57c4a9c4eb411e5bca74e37c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _BUILTIN_SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorVariationTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Displace1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 617b206ec808f7041b7a41b2c1373f91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseLines:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalWave:
+        m_Texture: {fileID: 2800000, guid: 0f86675fc5c91374684bd40d197542ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SteepVoronoiTexture:
+        m_Texture: {fileID: 2800000, guid: 5b7de9f470c626541ae97a4812d5762e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 7156872dfec946b40b0c19e401a2fe74, type: 3}
+        m_Scale: {x: 1.2, y: 1.2}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterLines:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterfallSteepnessLineTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AScaleX: 1
+    - _AScaleY: 1
+    - _Acceleration: 0
+    - _BScaleX: 2
+    - _BScaleY: 1
+    - _BSpeed: 1
+    - _BUILTIN_AlphaClip: 0
+    - _BUILTIN_Blend: 0
+    - _BUILTIN_CullMode: 2
+    - _BUILTIN_DstBlend: 10
+    - _BUILTIN_QueueControl: 1
+    - _BUILTIN_QueueOffset: 50
+    - _BUILTIN_SrcBlend: 5
+    - _BUILTIN_Surface: 1
+    - _BUILTIN_ZTest: 4
+    - _BUILTIN_ZWrite: 0
+    - _BUILTIN_ZWriteControl: 0
+    - _Bias: 0.5
+    - _BumpScale: 1
+    - _CausticsDepth: 2
+    - _CausticsOpacity: 1
+    - _CausticsSpeed: 0
+    - _CausticsViewOffset: 0.05
+    - _CloudNoiseSpeed: -0.1
+    - _ColorDepthFade: 0
+    - _ColorMaxOpacity: 1
+    - _ColorTransparencyDepthFar: 1
+    - _ColorTransparencyDepthNear: 1
+    - _ColorVariationContrast: 1
+    - _ColorVariationDepth: 0.054
+    - _ColorVariationSpeed: -0.1
+    - _Cutoff: 0.5
+    - _DEBUG: 0
+    - _DebugCloudNoise: 0
+    - _DebugEdgeFoam: 0
+    - _DebugFlowLines: 0
+    - _DebugNormals: 0
+    - _DebugVoronoiFoam: 0
+    - _DebugWaterColor: 0
+    - _DetailNormalMapScale: 1
+    - _DisplaceStrength: 0
+    - _DstBlend: 0
+    - _EdgeFoamContrast: 1
+    - _EdgeFoamDepth: 0.9
+    - _EdgeFoamIntensity: 1
+    - _EdgeFoamNoiseMultiplier: 2
+    - _EdgeFoamThickness: 0.1
+    - _EdgeOpacityDistance: 0.1
+    - _FlatWaterSmallDotsOpacity: 0.5
+    - _FlatWaterSmallDotsStep: 0.6
+    - _FoamHardness: 0.5
+    - _FoamLinesDistortion: 0.05
+    - _FoamLinesDistortionWaterfall: 0.05
+    - _FoamLinesLength: 20
+    - _FoamLinesLengthGradience: 1
+    - _FoamLinesLengthWaterfall: 20
+    - _FoamLinesMask: 0.5
+    - _FoamLinesMaskWaterfall: 0.7623556
+    - _FoamLinesNumber: 20
+    - _FoamLinesOpacity: 0.5
+    - _FoamLinesPow: 1
+    - _FoamLinesPowWaterfall: 1
+    - _FoamLinesSpeed: 0.15
+    - _FoamLinesSpeedWaterfall: 0.15
+    - _FoamLinesWaterfall: 0.6530934
+    - _FoamLinesWidthGradience: 1
+    - _FoamLinesWidthGradienceWaterfall: 1
+    - _FoamNormalDistortion: 0.02282609
+    - _FoamSpeed: 0.2
+    - _GlobalSpeed: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Height: 100
+    - _HorizontalSpeed: 0
+    - _Line01ScaleX: 0
+    - _Line01ScaleY: 0
+    - _Line01Speed: 0
+    - _Line02ScaleX: 0
+    - _Line02ScaleY: 0
+    - _Line02Speed: 0
+    - _LineAcceleration: 1
+    - _LineScaleWidth: 0
+    - _LineTreshold: 0.1
+    - _LineUVFade: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseLinesDistortion: 0.042
+    - _NoiseLinesOpacity: 0.8
+    - _NoiseLinesPow: 1
+    - _NoiseLinesReveal: 0.8
+    - _NoiseLinesSpeed: -0.2
+    - _NormalsDistortionIntensity: 0.05
+    - _NormalsSpeed: 0
+    - _NormalsStrength: 0.2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Refraction: 0.0611961
+    - _ScaleWidth: 1
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _SlopeLinesOpacity: 0.587
+    - _SlopeLinesStep: 0.368
+    - _Smoothness: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SteepVoronoiDistortion: 0.05
+    - _SteepVoronoiOpacity: 0.5
+    - _SteepVoronoiSpeed: 0.2
+    - _SteepVoronoiStep: 0.5
+    - _SteepWaterSmallDotsOpacity: 0.5
+    - _SteepWaterSmallDotsStep: 0.88
+    - _SteepWaterStartDeg: 15
+    - _Threshold: 0.1
+    - _UVSec: 0
+    - _VerticalSpeed: 1
+    - _WaterfallSteepnessLineSpeed: 0.1
+    - _WaveNormalIntensity: 1
+    - _WaveTiling01: 1
+    - _WaveTiling02: 1
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 0, g: 0.9495223, b: 1, a: 0}
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _Color3: {r: 0, g: 0.8273995, b: 1, a: 0}
+    - _Color4: {r: 0, g: 0.5989819, b: 0.8867924, a: 0}
+    - _Color5: {r: 0, g: 0.5989819, b: 0.8867924, a: 0}
+    - _ColorDeep: {r: 0.12130647, g: 0.34791896, b: 0.5471698, a: 0}
+    - _ColorShallow: {r: 0.5990566, g: 0.9091429, b: 1, a: 0}
+    - _DisplacementMovement: {r: 0, g: 3, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _LineColor: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1973390952587578363
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0
