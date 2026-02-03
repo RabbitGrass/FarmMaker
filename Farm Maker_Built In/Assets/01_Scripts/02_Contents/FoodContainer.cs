@@ -38,11 +38,13 @@ public class FoodContainer : MonoBehaviour
         }
     }
 
-    public void FeedCharge()
+    public void FeedCharge() //PlayerInterector에서 F키 눌렀을 때 실행.
     {
-        InventoryManager.inventory.FeedCharge(this);
+        if (feed >= maxFeed)//모이통이 가득 차 있는 경우 실행하지 않는다.
+            return; 
+        InventoryManager.inventory.FeedCharge(this);  //InventoryManager와 연동해서 모이(feed)를 찾고 모이가 존재할 경우 변수 feed에 100을 더한다.
         if(feed > maxFeed)
-            feed = maxFeed;
+            feed = maxFeed; //모이통의 최대치를 넘었을 경우 feed값을 maxFeed값으로 변환시킨다.
         FeedBar.value = feed;
     }
 
@@ -54,14 +56,14 @@ public class FoodContainer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("StockFarm") && other.gameObject != stock)
+        if (other.CompareTag("StockFarm") && other.gameObject != stock) //모이통이 놓여있는 가축장 기록
         {
-            other.GetComponent<StockFarmManager>().feedsCnt = this;
+            other.GetComponent<StockFarmManager>().feedsCnt = this; //StockFarmManager의 feedsCnt변수에 직접 저장
             stock = other.gameObject;
         }
-        else if (other.CompareTag("Player"))
+        else if (other.CompareTag("Player")) //플레이어일 경우
         {
-            InfoBox.SetActive(true);
+            InfoBox.SetActive(true); //상태창 활성화
         }
     }
 

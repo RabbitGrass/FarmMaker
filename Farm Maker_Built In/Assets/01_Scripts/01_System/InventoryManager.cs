@@ -187,14 +187,14 @@ public class InventoryManager : MonoBehaviour
         }
     }
 
-    public void FeedCharge(FoodContainer feed)
+    public void FeedCharge(FoodContainer feed) //슬롯에서 모이가 있는지 찾는다.
     {
         for(int i = 0; i < slots.Length; i++)
         {
             if (slots[i].item != null && slots[i].item.itemType == Item.ItemType.Feed)
             {
                 slots[i].SetSlotCount(slots[i].itemCount-1);
-                feed.feed += 100;
+                feed.feed += 100; //모이가 있을경우 FoodContainer의 feed에 +100을 더한다.
                 break;
             }
         }

@@ -522,6 +522,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1796425386}
+    - target: {fileID: 4145251305571284529, guid: dc0481ed0607aed4c906d59f85f0015c, type: 3}
+      propertyPath: m_Name
+      value: Farm_FoodContainer
+      objectReference: {fileID: 0}
     - target: {fileID: 6137508687693895668, guid: dc0481ed0607aed4c906d59f85f0015c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.9

@@ -29,7 +29,7 @@ public class AnimalController : MonoBehaviour, IHandsUp
     public AnimalState animalState;
     //private AnimalState prevState;
 
-    //동물 들 수 있는지 여부
+    //동물 들 수 있는지 여부, 주로 작은 동물들에게 적용 예정
     public bool CatchAble;
 
     Rigidbody rb;
@@ -37,7 +37,8 @@ public class AnimalController : MonoBehaviour, IHandsUp
     public float WalkSpeed;
     public float RunSpeed;
 
-    private float moveSpeed;
+    private float moveSpeed; //현재 이동 속도
+
     //동물이 행동하는 시간(idle, move)
     float activeTime;
 
@@ -399,28 +400,28 @@ public class AnimalController : MonoBehaviour, IHandsUp
         }
     }
 
-    public void Talk(bool talk)
+    public void Talk(bool talk) // 동물과 대화상태일 때 작동, 주로 친구가 가능한 동물에게 적용 예정
     {
         isTalk = talk;
         if(animalState != AnimalState.rest)
             animalState = AnimalState.idle;
     }
 
-    public void Caught()
+    public void Caught() //플레이어가 동물을 잡고 들어 올렸을 때 실행 될 예정
     {
         if(animalState != AnimalState.caught) //최초 실행시
             animalState = AnimalState.caught;
 
-        if (!anim.GetBool("Walk"))
+        if (!anim.GetBool("Walk")) //걷기 애니매이션 활성화
             anim.SetBool("Walk", true);
 
-        if (anim.GetBool("Run"))
+        if (anim.GetBool("Run")) //달리기 애니메이션이 켜져있다면 비활성화
         {
             anim.SetBool("Run", false);
         }
     }
 
-    public void Hurt()
+    public void Hurt() //대미지 입었을 때
     {
         animalState = AnimalState.hurt;
         //대충 뛴 후 몸이 붉은 애니메이션 뜰 예정

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StockFarmManager : MonoBehaviour
 {
-    public FoodContainer feedsCnt;
+    public FoodContainer feedsCnt; //FoodContainer가 존재할경우 OnTriggerEnter를 통해 저장 예정
     private HashSet<AnimalHunger> animals = new HashSet<AnimalHunger>();
 
     private void Update()
@@ -32,8 +32,8 @@ public class StockFarmManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        AnimalHunger hunger = other.GetComponent<AnimalHunger>();
+        AnimalHunger hunger = other.GetComponent<AnimalHunger>(); //배고픔이 존재하는 동물이 들어와있을경우
         if (hunger != null)
-            animals.Add(hunger);
+            animals.Add(hunger); //HashSet에 가축 저장
     }
 }
