@@ -50,7 +50,7 @@
 
 ## ▶️ 실행 방법
 - 아래 링크에서 빌드를 다운로드 후 실행 가능합니다
-https://github.com/RabbitGrass/FarmMaker/releases/tag/v0.5
+https://github.com/RabbitGrass/FarmMaker/releases/tag/v0.6
 
 
 ## 📌 참고 사항
