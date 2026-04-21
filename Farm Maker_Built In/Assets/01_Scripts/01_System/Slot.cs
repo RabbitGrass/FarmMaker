@@ -455,8 +455,7 @@ public class Slot : MonoBehaviour ,IPointerClickHandler ,IBeginDragHandler,IDrag
             }
         }
         // ✅ 도구 인벤토리 슬롯에서도 잔상 남지 않도록 강제 초기화
-        DragSlot.instance.SetColor(0);
-        DragSlot.instance.dragSlot = null;
+        DragSlot.instance.ClearSlot();
     }
 
     public void OnDrop(PointerEventData eventData)
